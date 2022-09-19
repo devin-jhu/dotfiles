@@ -56,3 +56,7 @@ nvm install-latest-npm
 echo "load java"
 sudo apt install default-jdk -y
 
+# copy overshell script file
+echo "Load shell script files"
+mkdir ~/scripts
+cp ~/dotfiles/
