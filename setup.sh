@@ -56,7 +56,16 @@ nvm install-latest-npm
 echo "load java"
 sudo apt install default-jdk -y
 
-# copy overshell script file
-echo "Load shell script files"
-mkdir ~/scripts
-cp ~/dotfiles/
+#remove dotfiles directory
+sudo rm -R ~/dotfiles
+
+#folders
+mkdir ~/ICS4U
+mkdir ~/ICS4U/Unit1
+cd ..
+mkdir ~/ICS4U/Assignments
+#reboot
+echo "---"
+echo "rebooting now..."
+echo "---"
+sudo reboot now 
