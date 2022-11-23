@@ -3,7 +3,7 @@
 # sudo apt update
 # sudo apt install -y git
 
-# git clone https://github.com/JacksonNaufal/dotfiles.git
+# git clone https://github.com/devin-jhu/dotfiles.git
 # cd ./dotfiles && sh ./setup.sh
 #
 # update and upgrade system
